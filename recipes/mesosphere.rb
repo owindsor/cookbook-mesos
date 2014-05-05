@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 version = node[:mesos][:version]
-download_url = "http://downloads.mesosphere.io/master/#{node['platform']}/#{node['platform_version']}/mesos_#{version}_amd64.deb"
+download_url = "http://downloads.mesosphere.io/master/#{node['platform']}/13.04/mesos_#{version}_amd64.deb"
 
 # TODO(everpeace) platform_version validation
 if !platform?("ubuntu") then
